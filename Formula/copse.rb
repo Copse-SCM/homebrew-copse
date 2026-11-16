@@ -2,7 +2,7 @@
 class Copse < Formula
   desc "Fast version control that works with git servers, with undo for everything"
   homepage "https://github.com/Copse-SCM/copse"
-  version "2026.11.0"
+  version "2026.11.1"
   license "Apache-2.0"
 
   head do
@@ -12,19 +12,19 @@ class Copse < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Copse-SCM/copse/releases/download/v2026.11.0/copse-2026.11.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d11b150357ea1a5b221be1be40074a303b1bf45504888a85e6ff3d7493284846"
+      url "https://github.com/Copse-SCM/copse/releases/download/v2026.11.1/copse-2026.11.1-aarch64-apple-darwin.tar.gz"
+      sha256 "cd885c8a789ca4c1c3b36ed5f1c3f2cd4703ddacc6c1b7119df0745c559690c6"
     end
     on_intel do
-      url "https://github.com/Copse-SCM/copse/releases/download/v2026.11.0/copse-2026.11.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b654ff17e2e43693a37361ab2dd0f928ec9c2936331de7fc3b18ed55d7cf4cd9"
+      url "https://github.com/Copse-SCM/copse/releases/download/v2026.11.1/copse-2026.11.1-x86_64-apple-darwin.tar.gz"
+      sha256 "99bbd2ebde268443a3dc0844e195e3c73238d07862403ba396a1f7d5981d3088"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Copse-SCM/copse/releases/download/v2026.11.0/copse-2026.11.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a4818fcf596fd939c2c528f73436873504d63a53516a5601928f63c6fb63aa46"
+      url "https://github.com/Copse-SCM/copse/releases/download/v2026.11.1/copse-2026.11.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e22dac584ee42ced5d6b58c5a25f8e8aefc37af7eeab66a1085163b18cace9bd"
     end
   end
 
