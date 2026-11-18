@@ -2,24 +2,24 @@
 class CopseNightly < Formula
   desc "Daily development build of copse, the fast version control system"
   homepage "https://github.com/Copse-SCM/copse"
-  version "2026.11.15-dev+77aff78"
+  version "2026.11.17-dev+a6480e5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Copse-SCM/copse/releases/download/nightly/copse-2026.11.15-dev%2B77aff78-aarch64-apple-darwin.tar.gz"
-      sha256 "b88bc2db1a6f906be51adfc9bac444b4880b082b6b13f8d540a6f675b157cb98"
+      url "https://github.com/Copse-SCM/copse/releases/download/nightly/copse-2026.11.17-dev%2Ba6480e5-aarch64-apple-darwin.tar.gz"
+      sha256 "e744d54e9eecf366d9e75dccdb138172ea58c92eebb516208725bfeb9dd34d80"
     end
     on_intel do
-      url "https://github.com/Copse-SCM/copse/releases/download/nightly/copse-2026.11.15-dev%2B77aff78-x86_64-apple-darwin.tar.gz"
-      sha256 "ee3ea61c68f1420c61c849297c317100f9f27b607e2f53f1c2b9f026c612f26c"
+      url "https://github.com/Copse-SCM/copse/releases/download/nightly/copse-2026.11.17-dev%2Ba6480e5-x86_64-apple-darwin.tar.gz"
+      sha256 "d43c327ec4917763cc62e5e83b1f071206ee17aa3a8f79206387b43e8bd4d54a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Copse-SCM/copse/releases/download/nightly/copse-2026.11.15-dev%2B77aff78-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "64ede82e5c989ffd7d23e75976e453eb2cecb6d8fe88bc227c14c6e6d2fbc9fc"
+      url "https://github.com/Copse-SCM/copse/releases/download/nightly/copse-2026.11.17-dev%2Ba6480e5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9ecc35668859d002ede8172f21e9524607a66d88f42aef0a0f615d3c19d9265b"
     end
   end
 
